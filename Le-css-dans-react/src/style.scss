@@ -1,0 +1,34 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+    section {
+        background-image: url(./assets/tree-header.jpg);
+        background-position: center;
+        width: 200px;
+        height: 200px;
+        text-align: center;
+        margin: 10px;
+        padding: 15px;
+        border-radius: 15px;
+        h1 {
+            font-size: 2.5rem;
+            color: #e6e6aa;
+        }
+
+        p{
+            color: #cccc67;
+        }
+    }
+
+    article {
+        margin: 10px;
+        
+        p {
+            font-size: 1.5rem;
+            color: #cccc67;
+            text-shadow: 2px 2px 1px #333131;
+        }
+    }
+}
