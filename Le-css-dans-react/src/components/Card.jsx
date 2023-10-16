@@ -1,11 +1,15 @@
 import ProTypes from "prop-types";
 
 function Card(props) {
-        
+    const { data } = props;
+
         return (
-            <figure>{props.data.name}
-                <figcaption>{props.data.about}</figcaption>
-                <img src={props.data.img} alt={props.data.name} />
+            <figure>
+                <h2>{data.name}</h2>
+                <article className='description'>
+                    <figcaption>{data.about}</figcaption>
+                    <img src={data.img} alt={data.name} />
+                </article>
             </figure>
             
     )
